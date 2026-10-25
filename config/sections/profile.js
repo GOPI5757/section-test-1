@@ -220,8 +220,11 @@ window.PortfolioSections["profile"] = {
       {
         "id": "cell-8b172ffb-44d",
         "enabled": true,
-        "direction": "columns",
-        "ratios": [],
+        "direction": "rows",
+        "ratios": [
+          50,
+          50
+        ],
         "gap": 1,
         "padding": 0,
         "margin": 0,
@@ -264,41 +267,280 @@ window.PortfolioSections["profile"] = {
             "opacity": 0.2
           }
         },
-        "children": [],
-        "element": {
-          "id": "element-8f1de4f4-c88",
-          "type": "text",
-          "enabled": true,
-          "style": {
-            "fontFamily": "system-ui, sans-serif",
-            "fontSize": 5.7667,
-            "color": "#e9edf5",
-            "fontWeight": 400,
-            "fontStyle": "normal",
-            "textAlign": "center",
-            "lineHeight": 1.55,
-            "letterSpacing": 0,
+        "children": [
+          {
+            "id": "cell-e5615cb8-34a",
+            "enabled": true,
+            "direction": "columns",
+            "ratios": [],
+            "gap": 1,
             "padding": 0,
+            "margin": 0,
             "borderWidth": 0,
             "borderColor": "#354052",
-            "borderRadius": 0.5,
+            "borderRadius": 0,
             "radiusLinked": true,
             "radiusCorners": null,
-            "background": [],
-            "backgroundAngle": 135,
-            "opacity": 1,
-            "verticalAlign": "middle",
-            "textDecoration": "none"
+            "align": "center",
+            "fit": false,
+            "mobile": "inherit",
+            "surface": {
+              "enabled": true,
+              "background": [],
+              "backgroundAngle": 135,
+              "opacity": 1,
+              "borderWidth": 0,
+              "borderColor": "#354052",
+              "borderRadius": 0,
+              "radiusLinked": true,
+              "radiusCorners": null,
+              "image": "",
+              "imageEnabled": true,
+              "imageOpacity": 1,
+              "imageFit": "cover",
+              "imagePosition": "center",
+              "edgeFade": {
+                "enabled": false,
+                "color": "#10151e",
+                "width": 10
+              },
+              "video": "",
+              "videoEnabled": false,
+              "overlay": {
+                "enabled": false,
+                "background": [
+                  "#10151e"
+                ],
+                "backgroundAngle": 135,
+                "opacity": 0.2
+              }
+            },
+            "children": [],
+            "element": {
+              "id": "element-8f1de4f4-c88",
+              "type": "text",
+              "enabled": true,
+              "style": {
+                "fontFamily": "system-ui, sans-serif",
+                "fontSize": 5.7667,
+                "color": "#e9edf5",
+                "fontWeight": 400,
+                "fontStyle": "normal",
+                "textAlign": "center",
+                "lineHeight": 1.55,
+                "letterSpacing": 0,
+                "padding": 0,
+                "borderWidth": 0,
+                "borderColor": "#354052",
+                "borderRadius": 0.5,
+                "radiusLinked": true,
+                "radiusCorners": null,
+                "background": [],
+                "backgroundAngle": 135,
+                "opacity": 1,
+                "verticalAlign": "middle",
+                "textDecoration": "none"
+              },
+              "text": "Website Testing",
+              "tag": "p",
+              "textStyles": {},
+              "dimensions": {
+                "enabled": true,
+                "width": 52.08,
+                "height": 12.38
+              }
+            }
           },
-          "text": "Website Testing",
-          "tag": "p",
-          "textStyles": {},
-          "dimensions": {
+          {
+            "id": "cell-f66cb4d1-884",
             "enabled": true,
-            "width": 52.08,
-            "height": 12.38
+            "direction": "columns",
+            "ratios": [],
+            "gap": 1,
+            "padding": 0,
+            "margin": 0,
+            "borderWidth": 0,
+            "borderColor": "#354052",
+            "borderRadius": 0,
+            "radiusLinked": true,
+            "radiusCorners": null,
+            "align": "center",
+            "fit": false,
+            "mobile": "inherit",
+            "surface": {
+              "enabled": true,
+              "background": [],
+              "backgroundAngle": 135,
+              "opacity": 1,
+              "borderWidth": 0,
+              "borderColor": "#354052",
+              "borderRadius": 0,
+              "radiusLinked": true,
+              "radiusCorners": null,
+              "image": "",
+              "imageEnabled": true,
+              "imageOpacity": 1,
+              "imageFit": "cover",
+              "imagePosition": "center",
+              "edgeFade": {
+                "enabled": false,
+                "color": "#10151e",
+                "width": 10
+              },
+              "video": "",
+              "videoEnabled": false,
+              "overlay": {
+                "enabled": false,
+                "background": [
+                  "#10151e"
+                ],
+                "backgroundAngle": 135,
+                "opacity": 0.2
+              }
+            },
+            "children": [],
+            "element": {
+              "id": "element-a8cd04c5-3c2",
+              "type": "code",
+              "enabled": true,
+              "style": {
+                "fontFamily": "",
+                "fontSize": 1,
+                "color": "#e9edf5",
+                "fontWeight": 400,
+                "fontStyle": "normal",
+                "textDecoration": "none",
+                "verticalAlign": "top",
+                "textAlign": "left",
+                "lineHeight": 1.55,
+                "letterSpacing": 0,
+                "padding": 1,
+                "borderWidth": 0.0625,
+                "borderColor": "#354052",
+                "borderRadius": 0.5,
+                "radiusLinked": true,
+                "radiusCorners": null,
+                "background": [
+                  "#0b0e14"
+                ],
+                "backgroundAngle": 135,
+                "opacity": 1
+              },
+              "fileName": "PlayerController.cs",
+              "language": "C#",
+              "code": "using System;\n\nnamespace HelloWorld\n{\n  class Program\n  {\n    static void Main(string[] args)\n    {\n      Console.WriteLine(\"Hello World!\");    \n    }\n  }\n}",
+              "startLine": 1,
+              "highlightLines": "",
+              "maxHeight": 16.95,
+              "wrap": true,
+              "explanation": "",
+              "textStyles": {
+                "fileName": {
+                  "fontFamily": "",
+                  "fontSize": 1,
+                  "color": "#e9edf5",
+                  "fontWeight": 400,
+                  "fontStyle": "normal",
+                  "textDecoration": "none",
+                  "verticalAlign": "top",
+                  "textAlign": "left",
+                  "lineHeight": 1.55,
+                  "letterSpacing": 0,
+                  "padding": 0,
+                  "borderWidth": 0,
+                  "borderColor": "#354052",
+                  "borderRadius": 0.5,
+                  "radiusLinked": true,
+                  "radiusCorners": null,
+                  "background": [],
+                  "backgroundAngle": 135,
+                  "opacity": 1,
+                  "enabled": true
+                },
+                "language": {
+                  "fontFamily": "",
+                  "fontSize": 1,
+                  "color": "#e9edf5",
+                  "fontWeight": 400,
+                  "fontStyle": "normal",
+                  "textDecoration": "none",
+                  "verticalAlign": "top",
+                  "textAlign": "left",
+                  "lineHeight": 1.55,
+                  "letterSpacing": 0,
+                  "padding": 0,
+                  "borderWidth": 0,
+                  "borderColor": "#354052",
+                  "borderRadius": 0.5,
+                  "radiusLinked": true,
+                  "radiusCorners": null,
+                  "background": [],
+                  "backgroundAngle": 135,
+                  "opacity": 1,
+                  "enabled": true
+                },
+                "code": {
+                  "fontFamily": "",
+                  "fontSize": 0.85,
+                  "color": "#e9edf5",
+                  "fontWeight": 400,
+                  "fontStyle": "normal",
+                  "textDecoration": "none",
+                  "verticalAlign": "top",
+                  "textAlign": "left",
+                  "lineHeight": 1.55,
+                  "letterSpacing": 0,
+                  "padding": 0,
+                  "borderWidth": 0,
+                  "borderColor": "#354052",
+                  "borderRadius": 0.5,
+                  "radiusLinked": true,
+                  "radiusCorners": null,
+                  "background": [],
+                  "backgroundAngle": 135,
+                  "opacity": 1,
+                  "enabled": true
+                },
+                "explanation": {
+                  "fontFamily": "",
+                  "fontSize": 1,
+                  "color": "#e9edf5",
+                  "fontWeight": 400,
+                  "fontStyle": "normal",
+                  "textDecoration": "none",
+                  "verticalAlign": "top",
+                  "textAlign": "left",
+                  "lineHeight": 1.55,
+                  "letterSpacing": 0,
+                  "padding": 0,
+                  "borderWidth": 0,
+                  "borderColor": "#354052",
+                  "borderRadius": 0.5,
+                  "radiusLinked": true,
+                  "radiusCorners": null,
+                  "background": [],
+                  "backgroundAngle": 135,
+                  "opacity": 1,
+                  "enabled": true
+                }
+              },
+              "dimensions": {
+                "enabled": true,
+                "width": 36,
+                "height": 18.73
+              }
+            }
           }
-        }
+        ],
+        "element": null,
+        "blends": [
+          {
+            "left": "cell-e5615cb8-34a",
+            "right": "cell-f66cb4d1-884",
+            "enabled": false,
+            "width": 1.5
+          }
+        ]
       }
     ],
     "element": null,
