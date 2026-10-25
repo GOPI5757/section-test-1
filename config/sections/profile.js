@@ -526,8 +526,8 @@ window.PortfolioSections["profile"] = {
               },
               "dimensions": {
                 "enabled": true,
-                "width": 36,
-                "height": 18.73
+                "width": 48.37,
+                "height": 16.89
               }
             }
           }
